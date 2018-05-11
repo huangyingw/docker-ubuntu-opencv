@@ -1,0 +1,8 @@
+"./.git/config"
+"./.gitconfig"
+"./Dockerfile"
+"./README.md"
+"./build_opencv.sh"
+"./includefile.conf"
+"./prunefile.conf"
+"./prunefix.conf"
