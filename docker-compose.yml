@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+    opencv:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: huangyingw/opencv
+        volumes:
+            - ./var/logs/:/var/logs/
+        environment:
+            - FILENAME="~/.bashrc"
